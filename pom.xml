@@ -18,7 +18,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
   <name>TeamCity Pipelines DSL</name>
-  <groupId>jetbrains.teamcity</groupId>
+  <groupId>ptmcgit.teamcity</groupId>
   <artifactId>teamcity-pipelines-dsl</artifactId>
   <version>1.0-SNAPSHOT</version>
 
