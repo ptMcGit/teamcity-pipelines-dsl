@@ -38,6 +38,10 @@ class Sequence : Stage() {
     val stages = arrayListOf<Stage>()
 }
 
+fun Parallel.hello() {
+    println("Hello, world!!!")
+}
+
 fun Parallel.build(bt: BuildType, block: BuildType.() -> Unit = {}): BuildType {
     bt.apply(block)
     buildTypes.add(bt)
